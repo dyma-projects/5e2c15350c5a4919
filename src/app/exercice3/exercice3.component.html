@@ -1,0 +1,10 @@
+<div *ngIf="status;else content2">
+    <p >Premier paragraphe : p1</p>
+</div>
+<ng-template #content2>
+    <p>Second paragraphe : p2</p>
+</ng-template>
+<hr>
+<a class="btn btn-success" (click)="status = !status">Change paragraphe</a>
+<hr>
+

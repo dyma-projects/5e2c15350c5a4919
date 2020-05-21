@@ -1,0 +1,7 @@
+<h1>Exercie 1</h1>
+<hr>
+<input type="text" class="form-control" style="margin-right: 10px;"  [(ngModel)]="value"> 
+<hr>
+<a class="btn btn-success" (click)="clickAction()">Go</a>
+<hr>
+<p [ngStyle]="{'color': isclick ? 'green' : 'black' }">{{value | uppercase}}</p>

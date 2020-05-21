@@ -11,5 +11,8 @@ export class Exercice2Component implements OnInit {
 
   ngOnInit() {
   }
-
+  action() {
+    // tslint:disable-next-line:quotemark
+    console.log("clic");
+  }
 }
